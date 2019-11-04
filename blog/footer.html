@@ -1,0 +1,31 @@
+<footer class="footer">
+    <div class="inner">
+        <div class="pageslist">
+            <ul>
+                <li><a href="http://doufox.com" rel="nofollow" title="新浪微博">新浪微博</a></li>
+                <li><a href="http://doufox.com" rel="nofollow" title="QQ联系">QQ交流</a></li>
+                <li class="qrcode">
+                    <a href="http://doufox.com" title="微信公众号">微信公众号</a>
+                    <div class="qrcode-img"><img src="image/qrcode.png" alt="扫一扫关注我们"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">Copyright &copy; 2019 Doufox All Rights Reserved.</div>
+        <div class="clear"></div>
+    </div>
+</footer>
+
+<div id="backtop">
+    <a href="javascript:void(0);" title="返回顶部"></a>
+</div>
+
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery.lazyload.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".full-thumbnail img,.left-thumbnail img,.entry img").lazyload({
+            placeholder: "image/grey.gif",
+            effect: "fadeIn"
+        });
+    });
+</script>
